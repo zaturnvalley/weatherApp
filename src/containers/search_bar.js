@@ -6,6 +6,10 @@ export default class SearchBar extends Component {
 
     this.state = { term: '' };
   }
+
+  onInputChange(event){
+    
+  }
   render() {
     return (
       <form className="input-group">
