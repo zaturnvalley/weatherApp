@@ -6,6 +6,7 @@ export default class SearchBar extends Component {
 
     this.state = { term: '' };
 
+    //overrides local method, gives this from SearchBar to it, binds context
     this.onInputChange = this.onInputChange.bind(this);
   }
 
