@@ -21,6 +21,8 @@ class SearchBar extends Component {
     event.preventDefault();
 
     // Go and fetch weather data
+    this.props.fetchWeather(this.state.term);
+    this.setState({ term: '' });
   }
   render() {
     return (
