@@ -9,5 +9,6 @@ td, th {
 
 td:first-of-type {
   height: 200px;
+  min-width: 150px;
   width: 250px;
 }
