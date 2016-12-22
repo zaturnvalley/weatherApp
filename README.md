@@ -1,8 +1,8 @@
 # Weather App
-* Uses:
-⋅⋅* React / Redux
-..* Axios
-..* React Sparklines
-..* Webpack
-..* React Router
-..* jQuery
+## Uses:
+* React / Redux
+* Axios
+* React Sparklines
+* Webpack
+* React Router
+* jQuery
